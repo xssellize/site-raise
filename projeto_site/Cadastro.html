@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="StyleCadastro.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script type="text/javascript" src="funcoes.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Cadastro</title>
+</head>
+<body>
+	<div class="fundo"></div>
+
+<div class="cadastro">
+	<img src="">
+	<h3>Cadastro</h3>
+	<form id="myForm">
+	<div id="aviso" class="alert alert-danger" role="alert" style="display: none;"></div>
+		<div class="input">
+			<input type="text" placeholder="Nome" id="nome" required="required">
+			<span><i class="fas fa-signature"></i></span>
+		</div>
+		<div class="input">
+			<input type="text" placeholder="Sobrenome" id="sobrenome" required="required">
+			<span><i class="fas fa-signature"></i></span>
+		</div>
+		<div class="input">
+				<input type="email" name="" placeholder="E-mail" id="email" required="required">
+				<span><i class="fas fa-user" aria-hidden="true"></i></span>
+			</div>
+		<div class="input">
+			<input type="text" placeholder="CPF" id="cpf" required="required">
+			<span><i class="fas fa-id-card"></i></span>
+		</div>
+		<div class="input">
+			<input type="text" placeholder="RG" id="rg" required="required">
+			<span><i class="fas fa-id-card"></i></span>
+		</div>
+		<div class="input">
+				<input type="text" placeholder="Endereço" id="endereco" required="required">
+				<span><i class="fas fa-home"></i></span>
+			</div>
+		<div class="input">
+				<input type="password" placeholder="Senha" id="senha" required="required">
+				<span><i class="fas fa-lock" aria-hidden="true"></i></span>
+			</div>
+			<div class="input">
+				<input type="password" placeholder="Confirmar Senha" id="confsenha" required="required">
+				<span><i class="fas fa-lock" aria-hidden="true"></i></span>
+			</div>
+			<button type="button" onclick="validaCadastro()">
+				<span>Cadastrar</span>
+			</button>
+	</form>
+</div>
+</body>
+</html>

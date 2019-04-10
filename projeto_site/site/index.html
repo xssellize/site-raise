@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Raise Adventurer</title>
+	<link rel="stylesheet" type="text/css" href="styleindex.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+
+		.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
+    background: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link:hover{
+color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(255,255,255,.8);
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+	color: rgba(255,255,255,1);
+}
+ .navbar-light .navbar-brand,
+ .navbar-light .navbar-brand:hover,
+ .navbar-light .navbar-brand:focus,
+ .navbar-light .navbar-brand:visited{
+    color: rgba(255,255,255,1);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+
+}
+
+.banner{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: url(imagens//BG.jpg);
+	background-size: cover;
+	margin-bottom: 0;
+}
+
+.contatenos:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(#000,transparent);
+	pointer-events: none;
+}
+
+
+.contatenos:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(360deg,#000,transparent);
+	pointer-events: none;
+}
+
+.contatenos{
+	position: relative;
+	padding: 100px 0;
+	background:url(imagens//bg2.jpg);
+	min-height: 100vh;
+	background-size: cover;
+
+}
+
+.contatenos .form-control{
+	background: transparent;
+	border:none;
+	border-bottom: 2px solid rgba(255,255,255,.2);
+	border-radius: 0;
+	background: rgba(0,0,0,.6);
+	color: #fff;
+	font-size: 1.25rem;	
+}
+
+.contatenos form{
+	position: relative;
+	z-index: 1000;
+}
+
+
+.contatenos .form-control:focus,
+.contatenos .form-control:hover{
+	border: none;
+	border-bottom: 2px solid rgba(255,255,255,2);
+	box-shadow: none;
+
+}
+
+.contatenos .textarea{
+	min-height: 100px;
+}
+
+.contatenos label{
+	color: #fff;
+	font-size: 1.25rem;
+
+}
+
+
+	</style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+			<div class="container">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				    <a class="navbar-brand" href="#"><img src="imagens/logo.png" class="logo"></a>
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#sobre">Sobre</a>
+				      </li>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#nossostrabalhos">Nossos Trabalhos</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contatenos">Contate-nos</a>
+				      </li>
+
+				    </ul>
+				  </div>
+  			</div>
+	</nav>
+	</header>
+
+			<div class="jumbotron jumbotron-fluid height100p banner" id="inicio">
+		  <div class="container h100">
+		   <div class="contentBox h100">
+		   	<div>
+		   		<h1>Raise adventurer</h1>
+		   		<p>  O cuidado em identificar pontos críticos na complexidade dos estudos efetuados nos obriga à análise das formas de ação. O que temos que ter sempre em mente é que a competitividade nas transações comerciais garante a contribuição de um grupo importante na determinação das direções preferenciais no sentido do progresso. s. </p>
+		   	</div>
+		   </div>
+		  </div>
+		</div>
+		<section class="sec1" id="sobre">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-2 col-sm-8">
+						<div class="headerText text-center">
+							<h2>Um pouco sobre Nós</h2>
+							<p>Somos uma empresa quem tem como intuito criar uma solução para ambientes cirúrgicos, 
+							solução essa que será feita através de um dispositivo com foco no monitoramento da temperatura em ambientes 
+							hospitalares, mais especificamente em salas cirúrgicas.
+					     	 A RaiseAdventurer foi criada em 2019 por um grupo de estudantes da faculdade bandeirantes de tecnologia. </p> 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="placeBox">
+							<div class="imgBx">
+								<img src="imagens/code2.jpg" class="img-fluid">
+							</div>
+							<div class="content">
+								<h3>Missão:<br><span><p>A nossa missão como empresa inovadora que propõe soluções
+								 à hospitais é de oferecer sempre o melhor produto, com baixo custo e sendo eficiente,
+								  mostrando resultado aos nossos clientes.</p></span></h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="placeBox">
+							<div class="imgBx">
+								<img src="imagens/visao.jpg" class="img-fluid">
+							</div>
+							<div class="content">
+								<h3>Visão:<br><span><p>Almejamos um grande futuro para nossa empresa, no momento atendemos apenas clientes da cidade de São Paulo,
+									 com foco em salas cirúrgicas de hospitais. Temos como objetivo à longo prazo, atender grandes hospitais fora do estado de São Paulo,
+									 e quem sabe até mesmo criar soluções para outras áreas hospitalares.</p></span></h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4">
+						<div class="placeBox">
+							<div class="imgBx">
+								<img src="imagens/valores.jpg" class="img-fluid">
+							</div>
+							<div class="content">
+								<h3>Valores:<br><span><p>Temos como valores respeito, responsabilidade e compromisso com nosso projeto, 
+									para beneficiar o produto final que oferecemos aos nossos clientes.</p></span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec2" id="nossostrabalhos">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-2 col-sm-8">
+						<div class="headerText">
+							<h2>Weather for life</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="blogpost">
+							<div class="imgBx">
+								<img src="imagens/img1.jpg" class="img-fluid">
+							</div>
+							<div class="content">
+								<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</section>
+		<section class="contatenos" id="contatenos">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="headerText text-center">
+							<h2>Contate-nos</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						</div>
+					</div>	
+				</div>
+				<div class="row Clearfix">
+					<div class="offset-sm-2 col-sm-8">
+						<form>
+							<div class="form-group">
+								<label>Nome</label>
+								<input type="text" name="" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label>Email</label>
+								<input type="text" name="" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label>Telefone</label>
+								<input type="text" name="" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label>Mensagem</label>
+								<textarea class="form-control textarea" name=""></textarea>
+							</div>
+
+							<div class="form-group text-center">
+								<button class="btnD1">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="sci">
+							<li><a href="#"><i class="fab fa-facebook"></i></a>
+								<li><a href="#"><i class="fab fa-instagram"></i></a>
+									<li><a href="#"><i class="fab fa-google-plus"></i></a>
+										<li><a href="#"><i class="fab fa-youtube"></i></a>
+											<li><a href="#"><i class="fab fa-twitter"></i></a>
+						</ul>
+						<p class="cprypt">© Copyright 2019 Raise Adventurer</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			 $(document).scroll(function(){
+			 	$('.navbar').toggleClass('scrolled', $(this).
+			 		scrollTop() > $('.navbar').height());
+			 });
+		</script>
+</body>
+</html>
